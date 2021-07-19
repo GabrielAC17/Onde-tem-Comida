@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8130BC6426A5B35F002D6825 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130BC6326A5B35F002D6825 /* DoubleExtension.swift */; };
+		8166F9D226A56F8400BE2916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9D126A56F8400BE2916 /* AppDelegate.swift */; };
+		8166F9D426A56F8400BE2916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9D326A56F8400BE2916 /* SceneDelegate.swift */; };
+		8166F9D626A56F8400BE2916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9D526A56F8400BE2916 /* ContentView.swift */; };
+		8166F9D826A56F8400BE2916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8166F9D726A56F8400BE2916 /* Assets.xcassets */; };
+		8166F9DB26A56F8400BE2916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8166F9DA26A56F8400BE2916 /* Preview Assets.xcassets */; };
+		8166F9DE26A56F8400BE2916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166F9DC26A56F8400BE2916 /* LaunchScreen.storyboard */; };
+		8166F9E926A576C200BE2916 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9E826A576C200BE2916 /* PlacesViewModel.swift */; };
+		8166F9EC26A57CF100BE2916 /* PlacesAPIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9EB26A57CF100BE2916 /* PlacesAPIResult.swift */; };
+		8166F9EE26A5804800BE2916 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9ED26A5804800BE2916 /* Geometry.swift */; };
+		8166F9F026A5806B00BE2916 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9EF26A5806B00BE2916 /* Location.swift */; };
+		8166F9F226A5809B00BE2916 /* Viewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9F126A5809B00BE2916 /* Viewport.swift */; };
+		8166F9F426A580E300BE2916 /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9F326A580E300BE2916 /* OpeningHours.swift */; };
+		8166F9F626A580FF00BE2916 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9F526A580FF00BE2916 /* Photo.swift */; };
+		8166F9F826A5812F00BE2916 /* PlusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9F726A5812F00BE2916 /* PlusCode.swift */; };
+		8166F9FA26A582DB00BE2916 /* PlacesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9F926A582DB00BE2916 /* PlacesAPI.swift */; };
+		8166F9FD26A5876200BE2916 /* GooglePlacesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166F9FC26A5876200BE2916 /* GooglePlacesAPI.swift */; };
+		8166F9FF26A58D0000BE2916 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8166F9FE26A58D0000BE2916 /* Keys.plist */; };
+		8166FA0226A5942B00BE2916 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166FA0126A5942B00BE2916 /* LocationHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8130BC6326A5B35F002D6825 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		8166F9CE26A56F8400BE2916 /* Onde tem Comida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onde tem Comida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8166F9D126A56F8400BE2916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8166F9D326A56F8400BE2916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8166F9D526A56F8400BE2916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8166F9D726A56F8400BE2916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8166F9DA26A56F8400BE2916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8166F9DD26A56F8400BE2916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8166F9DF26A56F8400BE2916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8166F9E826A576C200BE2916 /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		8166F9EB26A57CF100BE2916 /* PlacesAPIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesAPIResult.swift; sourceTree = "<group>"; };
+		8166F9ED26A5804800BE2916 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		8166F9EF26A5806B00BE2916 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8166F9F126A5809B00BE2916 /* Viewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewport.swift; sourceTree = "<group>"; };
+		8166F9F326A580E300BE2916 /* OpeningHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
+		8166F9F526A580FF00BE2916 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8166F9F726A5812F00BE2916 /* PlusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCode.swift; sourceTree = "<group>"; };
+		8166F9F926A582DB00BE2916 /* PlacesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesAPI.swift; sourceTree = "<group>"; };
+		8166F9FC26A5876200BE2916 /* GooglePlacesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesAPI.swift; sourceTree = "<group>"; };
+		8166F9FE26A58D0000BE2916 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		8166FA0126A5942B00BE2916 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8166F9CB26A56F8400BE2916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8166F9C526A56F8400BE2916 = {
+			isa = PBXGroup;
+			children = (
+				8166F9D026A56F8400BE2916 /* Onde tem Comida */,
+				8166F9CF26A56F8400BE2916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8166F9CF26A56F8400BE2916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8166F9CE26A56F8400BE2916 /* Onde tem Comida.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8166F9D026A56F8400BE2916 /* Onde tem Comida */ = {
+			isa = PBXGroup;
+			children = (
+				8166FA0026A593CA00BE2916 /* Helpers */,
+				8166F9FB26A5848100BE2916 /* API */,
+				8166F9E726A56FB300BE2916 /* Model */,
+				8166F9E626A56FA800BE2916 /* ViewModel */,
+				8166F9E526A56FA200BE2916 /* View */,
+				8166F9D126A56F8400BE2916 /* AppDelegate.swift */,
+				8166F9D326A56F8400BE2916 /* SceneDelegate.swift */,
+				8166F9D726A56F8400BE2916 /* Assets.xcassets */,
+				8166F9DC26A56F8400BE2916 /* LaunchScreen.storyboard */,
+				8166F9DF26A56F8400BE2916 /* Info.plist */,
+				8166F9D926A56F8400BE2916 /* Preview Content */,
+				8166F9FE26A58D0000BE2916 /* Keys.plist */,
+			);
+			path = "Onde tem Comida";
+			sourceTree = "<group>";
+		};
+		8166F9D926A56F8400BE2916 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8166F9DA26A56F8400BE2916 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8166F9E526A56FA200BE2916 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8166F9D526A56F8400BE2916 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8166F9E626A56FA800BE2916 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8166F9E826A576C200BE2916 /* PlacesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8166F9E726A56FB300BE2916 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8166F9EB26A57CF100BE2916 /* PlacesAPIResult.swift */,
+				8166F9ED26A5804800BE2916 /* Geometry.swift */,
+				8166F9EF26A5806B00BE2916 /* Location.swift */,
+				8166F9F126A5809B00BE2916 /* Viewport.swift */,
+				8166F9F326A580E300BE2916 /* OpeningHours.swift */,
+				8166F9F526A580FF00BE2916 /* Photo.swift */,
+				8166F9F726A5812F00BE2916 /* PlusCode.swift */,
+				8166F9F926A582DB00BE2916 /* PlacesAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8166F9FB26A5848100BE2916 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8166F9FC26A5876200BE2916 /* GooglePlacesAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8166FA0026A593CA00BE2916 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8166FA0126A5942B00BE2916 /* LocationHelper.swift */,
+				8130BC6326A5B35F002D6825 /* DoubleExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8166F9CD26A56F8400BE2916 /* Onde tem Comida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8166F9E226A56F8400BE2916 /* Build configuration list for PBXNativeTarget "Onde tem Comida" */;
+			buildPhases = (
+				8166F9CA26A56F8400BE2916 /* Sources */,
+				8166F9CB26A56F8400BE2916 /* Frameworks */,
+				8166F9CC26A56F8400BE2916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Onde tem Comida";
+			productName = "Onde tem Comida";
+			productReference = 8166F9CE26A56F8400BE2916 /* Onde tem Comida.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8166F9C626A56F8400BE2916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8166F9CD26A56F8400BE2916 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 8166F9C926A56F8400BE2916 /* Build configuration list for PBXProject "Onde tem Comida" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8166F9C526A56F8400BE2916;
+			productRefGroup = 8166F9CF26A56F8400BE2916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8166F9CD26A56F8400BE2916 /* Onde tem Comida */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8166F9CC26A56F8400BE2916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8166F9FF26A58D0000BE2916 /* Keys.plist in Resources */,
+				8166F9DE26A56F8400BE2916 /* LaunchScreen.storyboard in Resources */,
+				8166F9DB26A56F8400BE2916 /* Preview Assets.xcassets in Resources */,
+				8166F9D826A56F8400BE2916 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8166F9CA26A56F8400BE2916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8130BC6426A5B35F002D6825 /* DoubleExtension.swift in Sources */,
+				8166F9E926A576C200BE2916 /* PlacesViewModel.swift in Sources */,
+				8166F9F826A5812F00BE2916 /* PlusCode.swift in Sources */,
+				8166F9F226A5809B00BE2916 /* Viewport.swift in Sources */,
+				8166F9EE26A5804800BE2916 /* Geometry.swift in Sources */,
+				8166F9FA26A582DB00BE2916 /* PlacesAPI.swift in Sources */,
+				8166F9EC26A57CF100BE2916 /* PlacesAPIResult.swift in Sources */,
+				8166F9F626A580FF00BE2916 /* Photo.swift in Sources */,
+				8166F9D226A56F8400BE2916 /* AppDelegate.swift in Sources */,
+				8166F9D426A56F8400BE2916 /* SceneDelegate.swift in Sources */,
+				8166F9D626A56F8400BE2916 /* ContentView.swift in Sources */,
+				8166F9F426A580E300BE2916 /* OpeningHours.swift in Sources */,
+				8166F9F026A5806B00BE2916 /* Location.swift in Sources */,
+				8166FA0226A5942B00BE2916 /* LocationHelper.swift in Sources */,
+				8166F9FD26A5876200BE2916 /* GooglePlacesAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8166F9DC26A56F8400BE2916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8166F9DD26A56F8400BE2916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8166F9E026A56F8400BE2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8166F9E126A56F8400BE2916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8166F9E326A56F8400BE2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Onde tem Comida/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LRCZJYTUK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Onde tem Comida/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel.Onde-tem-Comida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8166F9E426A56F8400BE2916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Onde tem Comida/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LRCZJYTUK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Onde tem Comida/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel.Onde-tem-Comida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8166F9C926A56F8400BE2916 /* Build configuration list for PBXProject "Onde tem Comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8166F9E026A56F8400BE2916 /* Debug */,
+				8166F9E126A56F8400BE2916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8166F9E226A56F8400BE2916 /* Build configuration list for PBXNativeTarget "Onde tem Comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8166F9E326A56F8400BE2916 /* Debug */,
+				8166F9E426A56F8400BE2916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8166F9C626A56F8400BE2916 /* Project object */;
+}
